@@ -19,7 +19,7 @@ function App() {
 
       try {
         const res = await axios.get(
-          "https://run.mocky.io/v3/13a20f6c-8509-4375-bba1-7c598b3daaa3"
+          "https://run.mocky.io/v3/69d5bb65-ecbe-4338-9654-8714bed9fce0"
         );
         setEmojisData(res.data);
         setLoading(false);
